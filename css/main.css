@@ -1,0 +1,100 @@
+/* Tu CSS va aqui */
+body {
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+header {
+	padding-top: 1%;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+	margin-left: 4%;
+}
+
+nav {
+	margin-left: 54%;
+}
+
+.logo img {
+	width: 40%;
+}
+
+.fondo {
+	padding-top: 2%;
+	background-color: #808080;
+	height: 380px;
+}
+
+.white {
+	color: #FFF;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+p {
+	font-size: 14px;
+}
+
+.box {
+	background-color: #9A9A9A;
+	border-radius: 5%;
+	height: 200px;
+	width: 80%;
+	padding-top: 1px;
+}
+
+.box h5 {
+	font-size: 19px;
+	margin-bottom: 3%;
+}
+
+.box input {
+	margin-bottom: 2%;
+}
+
+.tamaño {
+	height: 10%;
+	width: 90%;
+}
+
+.submit {
+	width: 90%;
+	background-color: #3EB0F7;
+	border: transparent;
+	height: 15%;
+}
+
+footer p {
+	color: #777777;
+	margin-left: 2%;
+}
+
+footer span {
+	color: #4815EF;
+}
+
+a:hover {
+	color: #F38F59;
+}
+
+/* Media Queries */
+
+@media (max-width: 924px) {
+	.fondo {
+		height: 690px;
+	}
+
+	.box {
+		width: 100%;
+	}
+
+	nav {
+		margin-top: -15%;
+	}
+
+}
